@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+</head>
+  <title>CSS Grid</title>
+  <style>
+    body {
+      padding: 100px;
+    }
+    .all {
+      display: grid;
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      text-align: center;
+      opacity: 0.7;
+    }
+    div > div:hover {
+      opacity: 0.3;
+      transition: .5s ease;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="all">
+  <div class="time1">
+    <img src="red-rose-320868_1920.jpg">
+  </div>
+
+  <div class="time2">
+    <img src="rose-165819_1920.jpg">
+  </div>
+
+  <div class="time3">
+    <img src="rose-729509_1920.jpg">
+  </div>
+
+  <div class="time4">
+    <img src="tulips-2068692_1920.jpg">
+  </div>
+
+  <div class="time5">
+    <img src="flowers-1325012_1920.jpg">
+  </div>
+
+  <div class="time6">
+    <img src="bouquet-1463562_1920.jpg">
+  </div>
+
+  <div class="time7">
+    <img src="rose-374318_1920.jpg">
+  </div>
+</div>
+</body>
+</html>
